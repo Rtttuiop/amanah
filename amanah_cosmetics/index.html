@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMANAH COSMETICS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #fffaf5;
+            color: #2e241f;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .hero {
+            background: linear-gradient(135deg, #f7e6d3 0%, #f3d9c2 100%);
+            border-radius: 40px;
+            padding: 40px 30px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        .logo {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #9b6a47;
+            text-transform: uppercase;
+        }
+        .arabic {
+            font-family: 'Amiri', serif;
+            font-size: 1.9rem;
+            margin-top: 10px;
+            color: #7a4c2c;
+        }
+        .greeting {
+            background: #fff;
+            border-radius: 60px;
+            padding: 20px 25px;
+            margin: 30px auto 0;
+            max-width: 700px;
+            font-size: 1.1rem;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+            margin: 50px 0;
+        }
+        .card {
+            background: white;
+            border-radius: 32px;
+            width: 300px;
+            overflow: hidden;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+            border: 1px solid #f0e1d2;
+        }
+        .card-img {
+            background: #f9efdf;
+            height: 240px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 5rem;
+        }
+        .card-content {
+            padding: 20px;
+        }
+        .card-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #9b6a47;
+        }
+        .price {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: #2e5c3e;
+            margin: 12px 0;
+        }
+        .bundle {
+            background: #e8d9cd;
+            border-radius: 40px;
+            padding: 30px;
+            text-align: center;
+            margin: 40px 0;
+        }
+        .bundle-price {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: #1f543b;
+        }
+        .info-box {
+            background: #fff6e8;
+            border-left: 8px solid #c48b5b;
+            border-radius: 28px;
+            padding: 25px;
+            margin: 45px 0;
+        }
+        .warning {
+            background: #fff0e5;
+            border-left-color: #c0392b;
+        }
+        .social-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin: 30px 0;
+        }
+        .social-link {
+            background: white;
+            padding: 12px 24px;
+            border-radius: 60px;
+            text-decoration: none;
+            color: #2e241f;
+            font-weight: 600;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            border: 1px solid #eedbcb;
+        }
+        .btn-order {
+            background: #9b6a47;
+            color: white;
+            border: none;
+            padding: 14px 28px;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            cursor: pointer;
+            display: inline-block;
+            text-decoration: none;
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #aa8b72;
+        }
+        @media (max-width: 700px) {
+            .logo { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="hero">
+        <div class="logo">AMANAH COSMETICS</div>
+        <div class="arabic">أمانة للتجميل</div>
+        <div class="greeting">
+            <div class="arabic">السلام عليكم ورحمة الله وبركاته</div>
+            <p style="margin-top: 15px;">По воле Всевышнего Аллаха, я начинаю своё дело. 🤍<br>
+            Это не просто косметика — это уход, созданный с заботой, вниманием к коже и искренним намерением принести пользу.</p>
+        </div>
+    </div>
+
+    <div style="background: #fef4ea; border-radius: 28px; padding: 25px; margin-bottom: 30px;">
+        <p>✨ Мягкий и бережный уход для тех, кто сталкивается с пигментацией, высыпаниями, чёрными точками, тусклостью и сухостью кожи. Подходит взрослой и подростковой коже.</p>
+        <p style="margin-top: 15px;">💕 <strong>В наборе 2 продукта</strong> — пенка для очищения и увлажняющий крем для лица.</p>
+    </div>
+
+    <h2 style="text-align: center;">🛍️ Наша продукция</h2>
+    <div class="products">
+        <div class="card">
+            <div class="card-img">🧴✨</div>
+            <div class="card-content">
+                <div class="card-title">Крем на основе шафрана</div>
+                <div class="price">700 ₽</div>
+                <ul style="margin-left: 20px;">
+                    <li>Увлажняет и осветляет кожу</li>
+                    <li>Придаёт сияние, замедляет старение</li>
+                    <li>Защищает кожный барьер</li>
+                </ul>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">🧼🌸</div>
+            <div class="card-content">
+                <div class="card-title">Пенка для умывания</div>
+                <div class="price">800 ₽</div>
+                <ul style="margin-left: 20px;">
+                    <li>Очищает кожу и придаёт блеск</li>
+                    <li>Избавляет от тусклости и сухости</li>
+                    <li>Восстанавливает, придаёт мягкость</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="bundle">
+        <h3>✨ Полный набор ✨</h3>
+        <p>Крем (700₽) + Пенка (800₽)</p>
+        <div class="bundle-price">1 500 ₽</div>
+    </div>
+
+    <div class="info-box warning">
+        <h3>❗ ВАЖНАЯ ИНФОРМАЦИЯ</h3>
+        <p><strong>❌ ОБМЕНА / ВОЗВРАТА / ПОВТОРНОЙ ОТПРАВКИ НЕТ!</strong><br>
+        Заказы принимаются только после полной предоплаты. Без оплаты заказ не бронируется.</p>
+        <p>📦 <strong>Доставка через:</strong> Ozon, Яндекс Маркет</p>
+    </div>
+
+    <div style="text-align: center;">
+        <h3>💌 Для заказа и консультации</h3>
+        <div class="social-grid">
+            <a href="https://t.me/amanah_cosmeticss" class="social-link">📩 Telegram</a>
+            <a href="https://wa.me/message/GFIELUACQJCRK1" class="social-link">💬 WhatsApp</a>
+            <a href="https://t.me/AmanahCosmetics" class="social-link">📢 Telegram-канал</a>
+            <a href="https://www.instagram.com/amanah_cosmetics" class="social-link">📷 Instagram</a>
+        </div>
+        <a href="https://wa.me/message/GFIELUACQJCRK1" class="btn-order">💎 Сделать заказ</a>
+    </div>
+
+    <footer>
+        AMANAH COSMETICS — уход с заботой 🤍<br>
+        <span class="arabic">بإذن الله</span>
+    </footer>
+</div>
+</body>
+</html>
